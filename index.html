@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Daniel Bauman - Software Development</title>
+    <title>Daniel Bauman - Software Engineer</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -172,17 +172,17 @@
           <div class="subheading mb-3">Programming Languages</div>
           <ul class="list-inline list-icons">
             <li class="list-inline-item">
-                <i class="devicon-python-plain-wordmark colored"></i>
-            </li>
-            <li class="list-inline-item">
-                <i class="devicon-javascript-plain colored"></i>
+                <i class="devicon-cplusplus-plain colored"></i>
             </li>
             <li class="list-inline-item">
                 <i class="devicon-c-plain colored"></i>
             </li>
             <li class="list-inline-item">
-                <i class="devicon-cplusplus-plain colored"></i>
+                <i class="devicon-python-plain-wordmark colored"></i>
             </li>
+            <li class="list-inline-item">
+                <i class="devicon-javascript-plain colored"></i>
+            </li>           
           </ul>
 
           <div class="subheading mb-3">Web Development</div>
@@ -214,6 +214,7 @@
             <li class="list-inline-item">
               <i class="devicon-jasmine-plain"></i>
             </li>
+            <!-- More to be added! -->
           </ul>
 
           <div class="subheading mb-3">Other</div>
@@ -222,10 +223,10 @@
               <i class="devicon-visualstudio-plain colored"></i>
             </li>
             <li class="list-inline-item">
-              <i class="devicon-git-plain-wordmark colored"></i>
+              <i class="devicon-github-plain-wordmark colored"></i>
             </li>
             <li class="list-inline-item">
-              <i class="devicon-github-plain-wordmark colored"></i>
+              <i class="devicon-git-plain-wordmark colored"></i>
             </li>
             <li class="list-inline-item">
               <i class="devicon-heroku-original-wordmark colored"></i>
@@ -239,13 +240,80 @@
         <div class="my-auto">
           <h2 class="mb-5">Interests</h2>
           <p>When not learning about software, I enjoy reading, learning a piece of music for piano or guitar, and getting exercise with activities like tennis, badminton, or hiking.</p>
-          <p>I'm a lifelong fan of PC and console games, and I try to keep up with the truly excellent ones. My favorite game from recent years is either The Witcher 3 or Dark Souls.</p>
+          <p>I'm a fan of PC and console games and try to keep up with the truly excellent ones. My favorite games from recent years include The Witcher 3 and Dark Souls.</p>
           <p class="mb-0"></p>
         </div>
       </section>
 
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="projects">
+        <div class="my-auto">
+          <h2 class="mb-5">Projects</h2>
+              <div class="row projectrow">
 
+                <!-- Go Camp Project Block -->
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 pad">
+                  <div class="thumbnail">
+                    <div class="caption">
+                      <h3>Qt Chess</h3>
+                      <p>A fully playable chess game with CLI and GUI. Presents a chess board and allows two users to play. Written with modern C++; GUI built with Qt Creator.</p>
+                        <div class = "linkbtn"><a href="https://github.com/djbauman/Qt-Chess" class="btn btn-primary" role="button">GitHub Repo</a> </div>
+                        <!-- Add button to display image -->
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 pad">
+                   <div class="thumbnail">
+                    <div class="caption">
+                      <h3>Super Camp</h3>
+                      <p>A campground sharing and discussion website. Users register/login to post campground images, reviews, and comments. Built using Node.js, Express, MongoDB, and PassportJS.</p>
+                        <div class="linkbtn"><a href="https://blooming-forest-82338.herokuapp.com/" class="btn btn-primary" role="button">Live Site</a></div>
+                        <div class="linkbtn"><a href="https://github.com/djbauman/Super-Camp" class="btn btn-primary" role="button">GitHub Repo</a></div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 pad">
+                   <div class="thumbnail">
+                    <div class="caption">
+                      <h3>Simple FTP</h3>
+                      <p>A basic command-line implementation of File Transfer Protocol (FTP), built to learn socket programming in two languages. Server written in C; client written in Python. Supports server file list request and file transfer.</p>
+                      <div class="linkbtn"><a href="https://github.com/djbauman/SimpleFTP" class="btn btn-primary" role="button">GitHub Repo</a></div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 pad">
+                   <div class="thumbnail">
+                    <div class="caption">
+                      <h3>Simple Shell</h3>
+                      <p>A basic CLI shell made to learn about operating systems. Features include redirection of standard input/output, spawning of child processes, running background processes, and signal handling.</p>
+                      <div class="linkbtn"><a href="https://github.com/djbauman/SimpleShell" class="btn btn-primary" role="button">GitHub Repo</a></div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 pad">
+                   <div class="thumbnail">
+                    <div class="caption">
+                      <h3>Trivia Game</h3>
+                      <p>A text-based room traversal game that challenges players with trivia questions in subjects including Biology, Chemistry, and Physics. Built utilizing classes in C++.</p>
+                      <div class="linkbtn"><a href="https://github.com/djbauman/Trivia-Game" class="btn btn-primary" role="button">GitHub Repo</a></div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 pad">
+                   <div class="thumbnail">
+                    <div class="caption">
+                      <h3>RESTful Blog App</h3>
+                      <p>A simple blog made to learn about RESTful routing. Built with Node.js and Express.</p>
+                      <div class="linkbtn"><a href="https://github.com/djbauman/RESTful-Blog-App" class="btn btn-primary" role="button">GitHub Repo</a></div>
+                    </div>
+                  </div>
+                </div>       
+        </div>
+      </section>
     </div>
 
     <!-- Bootstrap core JavaScript -->
