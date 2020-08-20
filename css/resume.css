@@ -1,7 +1,7 @@
 body {
   font-family: 'Open Sans', serif;
   padding-top: 54px;
-  color: #868e96;
+  color: rgb(220, 255, 232);
 }
 
 @media (min-width: 992px) {
@@ -20,7 +20,7 @@ h6 {
   font-family: 'Saira Extra Condensed', serif;
   font-weight: 700;
   text-transform: uppercase;
-  color: #343a40;
+  color: #548CA8;
 }
 
 h1 {
@@ -47,7 +47,7 @@ h2 {
     display: block;
     padding: 5px;
     margin-bottom: 20px;
-    background-color: #fff;
+    background-color: #0f1116;
     border: 1px solid #ddd;
     border-radius: 4px;
     min-height: 220px;
@@ -92,6 +92,7 @@ h2 {
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 600;
   text-transform: uppercase;
+  /* color: white; */
 }
 
 @media (min-width: 992px) {
@@ -161,17 +162,22 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #333A56 !important;
+  background-color: #0f1116 !important;
 }
 
 .text-primary {
-  color: #333A56 !important;
+  color: #6abcff !important;
 }
 
 a {
-  color: #333A56;
+  color: #ffffff;
 }
 
 a:hover, a:focus, a:active {
-  color: #824027;
+  color: #f1fc91;
+  text-decoration: none;
+}
+
+body {
+  background-color: #262F49
 }
